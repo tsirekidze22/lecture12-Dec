@@ -1,0 +1,46 @@
+main {
+  width: 100%;
+  height: 80vh;
+  .main-content {
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    margin: auto;
+    display: flex;
+    column-gap: 103px;
+
+    .text-wrapper {
+      max-width: 557px;
+      width: 100%;
+      height: 600px;
+      border: 1px solid green;
+    }
+
+    .images-wrapper {
+      max-width: 553px;
+      width: 100%;
+      height: 600px;
+      border: 1px solid red;
+      position: relative;
+
+      .address-1 {
+        position: absolute;
+        top: 0;
+        left: 103px;
+      }
+
+      .line {
+        position: absolute;
+        top: 48px;
+        left: 123px;
+      }
+
+      .address-2 {
+        position: absolute;
+        top: 303px;
+        right: 57px;
+      }
+    }
+  }
+}
